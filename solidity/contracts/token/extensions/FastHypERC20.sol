@@ -5,7 +5,7 @@ import {HypERC20} from "../HypERC20.sol";
 import {FastTokenRouter} from "../libs/FastTokenRouter.sol";
 import {TokenRouter} from "../libs/TokenRouter.sol";
 
-import {ERC20Upgradeable} from "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
+import {ERC20Upgradeable} from "@openzeppelin-upgradeable/contracts/token/ERC20/ERC20Upgradeable.sol";
 
 /**
  * @title Hyperlane ERC20 Token Router that extends ERC20 with remote transfer functionality.

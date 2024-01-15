@@ -27,7 +27,7 @@ import {HypERC721URIStorage} from "../../contracts/token/extensions/HypERC721URI
 import {HypERC721URICollateral} from "../../contracts/token/extensions/HypERC721URICollateral.sol";
 
 import {IERC721Receiver} from "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
-import {ERC721URIStorageUpgradeable} from "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721URIStorageUpgradeable.sol";
+import {ERC721URIStorageUpgradeable} from "@openzeppelin-upgradeable/contracts/token/ERC721/extensions/ERC721URIStorageUpgradeable.sol";
 
 abstract contract HypTokenTest is Test, IERC721Receiver {
     using TypeCasts for address;

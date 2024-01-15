@@ -3,7 +3,7 @@ pragma solidity >=0.8.0;
 
 import {HypERC721Collateral} from "../HypERC721Collateral.sol";
 
-import {IERC721MetadataUpgradeable} from "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol";
+import {IERC721MetadataUpgradeable} from "@openzeppelin-upgradeable/contracts/token/ERC721/extensions/IERC721MetadataUpgradeable.sol";
 
 /**
  * @title Hyperlane ERC721 Token Collateral that wraps an existing ERC721 with remote transfer and URI relay functionality.

@@ -17,7 +17,7 @@ import {TestRecipient} from "../../contracts/test/TestRecipient.sol";
 
 import {NotCrossChainCall} from "@openzeppelin/contracts/crosschain/errors.sol";
 
-import {AddressAliasHelper} from "@eth-optimism/contracts/standards/AddressAliasHelper.sol";
+import {AddressAliasHelper} from "@eth-optimism/vendor/AddressAliasHelper.sol";
 import {ICrossDomainMessenger, IL2CrossDomainMessenger} from "../../contracts/interfaces/optimism/ICrossDomainMessenger.sol";
 
 contract OPStackIsmTest is Test {

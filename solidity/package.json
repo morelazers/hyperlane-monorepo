@@ -2,12 +2,6 @@
   "name": "@hyperlane-xyz/core",
   "description": "Core solidity contracts for Hyperlane",
   "version": "3.5.1",
-  "dependencies": {
-    "@eth-optimism/contracts": "^0.6.0",
-    "@hyperlane-xyz/utils": "3.5.1",
-    "@openzeppelin/contracts": "^4.9.3",
-    "@openzeppelin/contracts-upgradeable": "^v4.9.3"
-  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.1",
     "@nomiclabs/hardhat-waffle": "^2.0.6",

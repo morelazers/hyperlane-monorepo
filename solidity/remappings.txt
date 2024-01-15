@@ -1,4 +1,5 @@
-@openzeppelin=../node_modules/@openzeppelin
-@eth-optimism=../node_modules/@eth-optimism
+@openzeppelin/=lib/openzeppelin-contracts/
+@openzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/
+@eth-optimism/=lib/optimism/packages/contracts-bedrock/src/
 ds-test/=lib/forge-std/lib/ds-test/src/
 forge-std/=lib/forge-std/src/
